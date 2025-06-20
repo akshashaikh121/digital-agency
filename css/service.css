@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+h1,h2,h3,h4,h5,h6{
+     font-family: "Barlow", sans-serif;
+}
+.service-container {
+    padding:80px 50px 40px;
+    width:100%;
+}
+
+.service-container .service-content {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 20px;
+  gap:30px;
+}
+.service-container .service-content p {
+  font-size: 14px;
+  line-height: 1.2;
+}
+.service-container .service-content h6{
+
+    display: inline-block;
+     background-color: #262626;
+     padding: 10px;
+     border-radius: 3px;
+}
+/* chaart content*/
+
+.design-content {
+  display: flex;
+  flex-flow: wrap column;
+  border:2px solid #262424;
+  width:100%;
+}
+.heading{  
+  padding: 20px;
+  border: 2px solid #262424;
+}
+.design-content .heading h4 {
+  border: none;
+}
+
+.design-card-section{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.design-content-card{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  width:25%;
+  padding: 50px;
+  border: 2px solid #262424;
+  line-height: 1.2;
+  margin:0px;
+}
+.design-card-section img{
+  width:65px;
+  margin-bottom: 15px;
+
+}
